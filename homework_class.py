@@ -53,10 +53,10 @@ class Counter:
             return 'Out of range'
 
 my_count=Counter(start=0, end=3)
-print(my_count.increase()) # --> 1
-print(my_count.increase()) # --> 2
-print(my_count.increase()) # --> 3
-print(my_count.increase()) # --> 'Out of range'
+print(my_count.increase())
+print(my_count.increase())
+print(my_count.increase())
+print(my_count.increase())
 
 my_count = Counter(start=3, end=0)
 print(my_count.decrease())
